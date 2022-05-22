@@ -1,0 +1,40 @@
+.hero {
+  background-color: rgba(242, 206, 218, 0.3);
+}
+
+.hero__container {
+  display: flex;
+  align-items: center;
+}
+
+.hero__text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.1em;
+  color: #0f0101;
+  margin-bottom: 6px;
+}
+
+.hero__title {
+  font-family: 'Fredoka One';
+  font-weight: 400;
+  font-size: 57px;
+  line-height: 1.2;
+  color: #0f0101;
+  opacity: 0.9;
+  margin-bottom: 35px;
+  &--accent {
+    color: rgba(210, 49, 102, 1);
+  }
+}
+
+.hero__description {
+  font-family: 'Hind Madurai';
+  font-size: 18px;
+  line-height: 1.5;
+  color: #0f0101;
+  opacity: 0.6;
+  margin-bottom: 50px;
+}

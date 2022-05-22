@@ -23,9 +23,14 @@ img {
   height: auto;
 }
 
-.btn {
-  padding: 0;
-  cursor: pointer;
-  background-color: transparent;
-  border: none;
+.primary__btn {
+  @extend .btn;
+  font-family: 'Hind Madurai';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.37;
+  color: #fafafa;
+  padding: 14px 50px;
+  background: #d23166;
+  border-radius: 5px;
 }
