@@ -1,0 +1,122 @@
+.footer {
+  padding-top: 60px;
+  padding-bottom: 114px;
+  background: #0a0808;
+}
+
+.footer__container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer__sidebar {
+  width: 207px;
+  margin-right: 37px;
+}
+
+.logo__footer {
+  margin-bottom: 9px;
+}
+
+.footer__text {
+  margin-bottom: 25px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: calc(17 / 12);
+  letter-spacing: 0.01em;
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.footer__subtitle {
+  margin-bottom: 8px;
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  color: #ffffff;
+}
+
+.footer-nav {
+  margin-right: 132px;
+}
+
+.footer-social__list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.footer-nav__item {
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
+
+.footer-nav__link {
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  color: #ffffff;
+}
+
+.footer-info__item + .footer-info__item {
+  margin-top: 10px;
+}
+
+.footer-info__link {
+  font-family: 'Roboto';
+  font-size: 12px;
+  line-height: calc(14 / 12);
+  color: #ffffff;
+  opacity: 0.8;
+}
+
+.footer-info {
+  margin-right: 151px;
+}
+
+.footer__strong {
+  display: block;
+  margin-bottom: 13px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  color: #ffffff;
+}
+
+.footer__form {
+  //   opacity: 0.5;
+  border: 2px solid #d64374;
+  border-radius: 5px;
+  margin-bottom: 19px;
+}
+
+.footer__input {
+  width: 263px;
+  height: 55px;
+  border: none;
+  background-color: transparent;
+  &::placeholder {
+    font-family: 'Roboto';
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    color: rgba(255, 255, 255, 0.6);
+    padding-left: 32px;
+    // opacity: 0.6;
+  }
+}
+
+.footer__button {
+  padding: 16px 18px;
+  background: #d23166;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 20px;
+  line-height: calc(23 / 20);
+  color: #ffffff;
+}
+
+.footer__payment {
+  display: flex;
+  gap: 18px;
+}

@@ -2,15 +2,12 @@
   padding: 100px 0;
   background: #fff;
 }
-.container {
-}
-.visually-hidden {
-}
-.delivery__list {
-  display: flex;
-  justify-content: center;
-  gap: 39px;
-}
+
+// .delivery__list {
+//   display: flex;
+//   justify-content: center;
+//   gap: 39px;
+// }
 .delivery__item {
   width: 250px;
   position: relative;
@@ -47,4 +44,27 @@
   padding-left: 26px;
   padding-right: 26px;
   padding-bottom: 27px;
+}
+
+.delivery__wrapper {
+  position: relative;
+}
+
+.delivery__button {
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  border: none;
+  background-color: aqua;
+}
+
+.delivery__btn-left {
+  left: -45px;
+}
+
+.delivery__btn-right {
+  right: -45px;
 }
